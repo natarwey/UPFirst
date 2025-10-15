@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UPFirst.Views.ItemEditWindow"
+        Title="Edit Item"
+        Width="350"
+        Height="200"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+
+    <StackPanel Margin="15" Spacing="12">
+        <TextBox Name="NameBox"
+                 Watermark="Name"
+                 Text="{Binding Title, Mode=TwoWay}" />
+
+        <TextBox Name="PriceBox"
+                 Watermark="Price"
+                 Text="{Binding Price, Mode=TwoWay}" />
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Spacing="10">
+            <Button Content="Save"
+                    Click="SaveButton_Click"
+                    Width="80" />
+
+            <Button Content="Cancel"
+                    Click="CancelButton_Click"
+                    Width="80" />
+        </StackPanel>
+    </StackPanel>
+</Window>

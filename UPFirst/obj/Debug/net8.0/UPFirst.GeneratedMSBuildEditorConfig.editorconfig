@@ -32,3 +32,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/admin/Desktop/Башарова Рената/UPFirst/UPFirst/Views/UsersView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/admin/Desktop/Башарова Рената/UPFirst/UPFirst/Windows/ItemEditWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/admin/Desktop/Башарова Рената/UPFirst/UPFirst/Windows/UserEditWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

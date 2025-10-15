@@ -182,3 +182,4 @@ C:\Users\admin\Desktop\Башарова Рената\UPFirst\UPFirst\obj\Debug\n
 C:\Users\admin\Desktop\Башарова Рената\UPFirst\UPFirst\obj\Debug\net8.0\UPFirst.pdb
 C:\Users\admin\Desktop\Башарова Рената\UPFirst\UPFirst\obj\Debug\net8.0\UPFirst.genruntimeconfig.cache
 C:\Users\admin\Desktop\Башарова Рената\UPFirst\UPFirst\obj\Debug\net8.0\ref\UPFirst.dll
+C:\Users\admin\Desktop\Башарова Рената\UPFirst\UPFirst\obj\Debug\net8.0\UPFirst.sourcelink.json

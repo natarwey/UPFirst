@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\usersview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\usersview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\itemsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\itemsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\usersview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\usersview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\usersview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -19,40 +19,24 @@
       "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\itemsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\windows\\itemeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\windows\\itemeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\upfirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\upfirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upfirst\\upfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1B65F6-7754-4BC4-B519-02023F79CBA1}|UPFirst\\UPFirst.csproj|solutionrelative:upfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,33 +46,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Views\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml.cs",
-              "RelativeToolTip": "UPFirst\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:26:00.462Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "UPFirst\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "UPFirst\\Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T11:15:04.711Z",
-              "IsPinned": true,
+              "DocumentIndex": 1,
+              "Title": "UsersView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml.cs",
+              "RelativeDocumentMoniker": "UPFirst\\Views\\UsersView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml.cs",
+              "RelativeToolTip": "UPFirst\\Views\\UsersView.axaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:08:58.748Z",
               "EditorCaption": ""
             },
             {
@@ -97,28 +75,81 @@
               "Title": "UsersView.axaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml",
               "RelativeDocumentMoniker": "UPFirst\\Views\\UsersView.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml",
-              "RelativeToolTip": "UPFirst\\Views\\UsersView.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml*",
+              "RelativeToolTip": "UPFirst\\Views\\UsersView.axaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-15T13:08:58.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Views\\UsersView.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\UsersView.axaml.cs",
-              "RelativeToolTip": "UPFirst\\Views\\UsersView.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UPFirst\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "UPFirst\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T13:08:58.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T14:26:00.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "UPFirst\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "UPFirst\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-13T11:15:04.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UPFirst.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\UPFirst.csproj",
+              "RelativeDocumentMoniker": "UPFirst\\UPFirst.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\UPFirst.csproj",
+              "RelativeToolTip": "UPFirst\\UPFirst.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T14:33:48.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Program.cs",
+              "RelativeDocumentMoniker": "UPFirst\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Program.cs",
+              "RelativeToolTip": "UPFirst\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:11:18.892Z"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemsView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\ItemsView.axaml.cs",
+              "RelativeDocumentMoniker": "UPFirst\\Views\\ItemsView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\ItemsView.axaml.cs",
+              "RelativeToolTip": "UPFirst\\Views\\ItemsView.axaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:17:39.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,104 +165,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemsView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\ItemsView.axaml.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Views\\ItemsView.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Views\\ItemsView.axaml.cs",
-              "RelativeToolTip": "UPFirst\\Views\\ItemsView.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T16:17:39.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\Item.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Data\\Item.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\Item.cs",
-              "RelativeToolTip": "UPFirst\\Data\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Title": "ItemEditWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Windows\\ItemEditWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UPFirst\\Windows\\ItemEditWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Windows\\ItemEditWindow.axaml.cs",
+              "RelativeToolTip": "UPFirst\\Windows\\ItemEditWindow.axaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:16:08.116Z",
+              "WhenOpened": "2025-10-15T13:34:26.317Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\User.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Data\\User.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\User.cs",
-              "RelativeToolTip": "UPFirst\\Data\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:16:18.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UPFirst.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\UPFirst.csproj",
-              "RelativeDocumentMoniker": "UPFirst\\UPFirst.csproj",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\UPFirst.csproj",
-              "RelativeToolTip": "UPFirst\\UPFirst.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T14:33:48.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "UPFirst\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA/wBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T15:22:52.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Program.cs",
-              "RelativeDocumentMoniker": "UPFirst\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\Program.cs",
-              "RelativeToolTip": "UPFirst\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T15:11:18.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\App.axaml",
-              "RelativeDocumentMoniker": "UPFirst\\App.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\App.axaml",
-              "RelativeToolTip": "UPFirst\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T15:39:18.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\App.axaml.cs",
-              "RelativeDocumentMoniker": "UPFirst\\App.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPFirst\\UPFirst\\App.axaml.cs",
-              "RelativeToolTip": "UPFirst\\App.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T16:36:28.654Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
