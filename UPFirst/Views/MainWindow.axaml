@@ -12,15 +12,11 @@
 		<StackPanel Orientation="Horizontal" Spacing="10">
 			<Button Content="Items" Click="ItemButton_Click" Width="100"/>
 			<Button Content="Users" Click="UsersButton_Click" Width="100"/>
+			<Button Content="Basket" Click="BasketButton_Click" Width="100"/>
 		</StackPanel>
 
 		<Border Margin="0,20,0,0" BorderBrush="Gray" BorderThickness="1">
 			<ContentControl x:Name="MainContent"/>
 		</Border>
-
-		<!--<StackPanel Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
-			<Button Content="+" Click="AddButton_Click" Width="40" Height="30"/>
-			<Button Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red"/>
-		</StackPanel>-->
 	</StackPanel>
 </Window>

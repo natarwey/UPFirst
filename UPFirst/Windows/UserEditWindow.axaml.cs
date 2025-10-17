@@ -37,7 +37,10 @@ public partial class UserEditWindow : Window
         var db = App.dbContext;
         if (_user.Id == 0)
             db.Users.Add(_user);
-        db.SaveChanges();
+        else
+            db.Users.Update(_user);
+            
+            db.SaveChanges();
 
         Close(true);
     }

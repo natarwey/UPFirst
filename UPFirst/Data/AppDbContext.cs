@@ -15,6 +15,8 @@ public partial class AppDbContext : DbContext
     {
     }
 
+    public virtual DbSet<Basket> Baskets { get; set; }
+
     public virtual DbSet<Item> Items { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -25,6 +27,35 @@ public partial class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Basket>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("basket_pkey");
+
+            entity.ToTable("basket");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.ItemId)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("item_id");
+            entity.Property(e => e.Quantity)
+                .HasPrecision(100)
+                .HasDefaultValueSql("1")
+                .HasColumnName("quantity");
+            entity.Property(e => e.UserId)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("user_id");
+
+            entity.HasOne(d => d.Item).WithMany(p => p.Baskets)
+                .HasForeignKey(d => d.ItemId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("basket_item_id_fkey");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Baskets)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("basket_user_id_fkey");
+        });
+
         modelBuilder.Entity<Item>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("items_pkey");
@@ -51,7 +82,7 @@ public partial class AppDbContext : DbContext
                 .HasMaxLength(100)
                 .HasColumnName("name");
             entity.Property(e => e.Password)
-                .HasMaxLength(10)
+                .HasMaxLength(100)
                 .HasColumnName("password");
         });
 

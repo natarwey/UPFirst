@@ -1,4 +1,4 @@
-using Avalonia;
+﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using UPFirst.Data;
@@ -37,7 +37,10 @@ public partial class ItemEditWindow : Window
         var db = App.dbContext;
         if (_item.Id == 0)
             db.Items.Add(_item);
-        db.SaveChanges();
+        else 
+            db.Items.Update(_item);
+
+            db.SaveChanges();
 
         Close(true);
     }
