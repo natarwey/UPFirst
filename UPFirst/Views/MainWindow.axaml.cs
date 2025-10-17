@@ -40,5 +40,14 @@ namespace UPFirst.Views
 
         }
 
+        private void LogoutButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            CurrentUser.currentUser = null;
+
+            var authWindow = new AuthWindow();
+            authWindow.Show();
+
+            this.Close();
+        }
     }
 }

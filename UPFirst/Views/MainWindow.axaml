@@ -1,23 +1,27 @@
 <Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:datagrid="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:datagrid="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
 		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="UPFirst.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
-        Title="UPFirst">
+		x:Class="UPFirst.Views.MainWindow"
+		Icon="/Assets/avalonia-logo.ico"
+		Title="UPFirst">
 
-	<StackPanel Margin="10">
-		<StackPanel Orientation="Horizontal" Spacing="10">
-			<Button Content="Items" Click="ItemButton_Click" Width="100"/>
-			<Button Content="Users" Click="UsersButton_Click" Width="100"/>
-			<Button Content="Basket" Click="BasketButton_Click" Width="100"/>
-			<Button Content="Order" Click="OrderButton_Click" Width="100"/>
+	<Grid Margin="10">
+		<Button Content="Logout" Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="80" Height="30" FontSize="14"/>
+
+		<StackPanel Margin="10">
+			<StackPanel Orientation="Horizontal" Spacing="10">
+				<Button Content="Items" Click="ItemButton_Click" Width="100"/>
+				<Button Content="Users" Click="UsersButton_Click" Width="100"/>
+				<Button Content="Basket" Click="BasketButton_Click" Width="100"/>
+				<Button Content="Order" Click="OrderButton_Click" Width="100"/>
+			</StackPanel>
+
+			<Border Margin="0,20,0,0" BorderBrush="Gray" BorderThickness="1">
+				<ContentControl x:Name="MainContent"/>
+			</Border>
 		</StackPanel>
-
-		<Border Margin="0,20,0,0" BorderBrush="Gray" BorderThickness="1">
-			<ContentControl x:Name="MainContent"/>
-		</Border>
-	</StackPanel>
+	</Grid>
 </Window>

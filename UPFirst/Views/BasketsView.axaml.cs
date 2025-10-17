@@ -14,6 +14,14 @@ public partial class BasketsView : UserControl
     {
         InitializeComponent();
         LoadData();
+
+        UpdateButtonsVisibility();
+    }
+
+    private void UpdateButtonsVisibility()
+    {
+        DeleteButton.IsVisible = CurrentUser.CanDeleteFromBasket;
+        BuyButton.IsVisible = CurrentUser.CanBuy;
     }
 
     private void LoadData()

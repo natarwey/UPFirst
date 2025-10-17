@@ -20,6 +20,14 @@ public partial class UsersView : UserControl
         _usersCollection = new ObservableCollection<User>();
         UsersDataGrid.ItemsSource = _usersCollection;
         this.Loaded += async (s, e) => await LoadUsersAsync();
+
+        UpdateButtonsVisibility();
+    }
+
+    private void UpdateButtonsVisibility()
+    {
+        AddButton.IsVisible = CurrentUser.CanManageUsers;
+        DeleteButton.IsVisible = CurrentUser.CanManageUsers;
     }
 
     private async Task LoadUsersAsync()
@@ -44,6 +52,9 @@ public partial class UsersView : UserControl
 
     private async void UsersDataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
+        if (!CurrentUser.CanManageItems)
+            return;
+
         if (UsersDataGrid.SelectedItem is User user)
         {
             var win = new UserEditWindow(user);

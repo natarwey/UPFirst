@@ -19,9 +19,9 @@
 		</DataGrid>
 
 		<StackPanel Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
-			<Button Content="+" Click="AddButton_Click" Width="40" Height="30"/>
-			<Button Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red"/>
-			<Button Content="In basket" Click="InBasketButton_Click" Width="80" Height="30"/>
+			<Button x:Name="AddButton" Content="+" Click="AddButton_Click" Width="40" Height="30"/>
+			<Button x:Name="DeleteButton" Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red"/>
+			<Button x:Name="InBasketButton" Content="In basket" Click="InBasketButton_Click" Width="80" Height="30"/>
 		</StackPanel>
 	</StackPanel>
 </UserControl>

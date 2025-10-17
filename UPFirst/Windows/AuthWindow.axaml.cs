@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using UPFirst.Data;
 using BC = BCrypt.Net.BCrypt;
@@ -24,7 +25,7 @@ public partial class AuthWindow : Window
             return;
         }
 
-        var user = App.dbContext.Users.FirstOrDefault(u => u.Name == name);
+        var user = App.dbContext.Users.Include(u => u.Role).FirstOrDefault(u => u.Name == name);
         if (user != null && BC.Verify(password, user.Password))
         {
             CurrentUser.currentUser = user;
@@ -53,10 +54,15 @@ public partial class AuthWindow : Window
             return;
         }
 
+        var userRole = App.dbContext.Roles.FirstOrDefault(r => r.Title == "user");
+        if (userRole == null)
+            return;
+
         var user = new User
         {
             Name = name,
-            Password = BC.HashPassword(password)
+            Password = BC.HashPassword(password),
+            RoleId = userRole.Id
         };
 
         App.dbContext.Users.Add(user);
