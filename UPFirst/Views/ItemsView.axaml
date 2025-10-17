@@ -12,9 +12,9 @@
 				  SelectionMode="Single"
 				  DoubleTapped="ItemsDataGrid_DoubleTapped">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="40" x:DataType="data:Item"/>
-				<DataGridTextColumn Header="Item" Binding="{Binding Title}" Width="100" x:DataType="data:Item"/>
-				<DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="100" x:DataType="data:Item"/>
+				<DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="100" x:DataType="data:Item"/>
+				<DataGridTextColumn Header="Item" Binding="{Binding Title}" Width="350" x:DataType="data:Item"/>
+				<DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="350" x:DataType="data:Item"/>
 			</DataGrid.Columns>
 		</DataGrid>
 

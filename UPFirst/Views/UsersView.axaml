@@ -12,9 +12,9 @@
                   SelectionMode="Single"
                   DoubleTapped="UsersDataGrid_DoubleTapped">
             <DataGrid.Columns>
-				<DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="40" x:DataType="data:User"/>
-				<DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" x:DataType="data:User"/>
-				<DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="100" x:DataType="data:User"/>
+				<DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="100" x:DataType="data:User"/>
+				<DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150" x:DataType="data:User"/>
+				<DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="550" x:DataType="data:User"/>
 			</DataGrid.Columns>
 		</DataGrid>
 

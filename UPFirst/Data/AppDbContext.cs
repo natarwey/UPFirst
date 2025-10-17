@@ -19,6 +19,10 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<Item> Items { get; set; }
 
+    public virtual DbSet<Order> Orders { get; set; }
+
+    public virtual DbSet<Role> Roles { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -71,6 +75,39 @@ public partial class AppDbContext : DbContext
                 .HasColumnName("title");
         });
 
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("orders_pkey");
+
+            entity.ToTable("orders");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Data)
+                .HasColumnType("time with time zone")
+                .HasColumnName("data");
+            entity.Property(e => e.PriceTotal).HasColumnName("price_total");
+            entity.Property(e => e.UserId)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("user_id");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("orders_user_id_fkey");
+        });
+
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("roles_pkey");
+
+            entity.ToTable("roles");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Title)
+                .HasMaxLength(100)
+                .HasColumnName("title");
+        });
+
         modelBuilder.Entity<User>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("users_pkey");
@@ -84,6 +121,14 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(100)
                 .HasColumnName("password");
+            entity.Property(e => e.RoleId)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("role_id");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Users)
+                .HasForeignKey(d => d.RoleId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("users_role_id_fkey");
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -3,13 +3,11 @@ using System.Collections.Generic;
 
 namespace UPFirst.Data;
 
-public partial class Item
+public partial class Role
 {
     public int Id { get; set; }
 
     public string? Title { get; set; }
 
-    public decimal? Price { get; set; }
-
-    public virtual ICollection<Basket> Baskets { get; set; } = new List<Basket>();
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

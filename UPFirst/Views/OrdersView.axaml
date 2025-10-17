@@ -1,0 +1,19 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="UPFirst.Views.OrdersView">
+
+    <StackPanel>
+		<DataGrid x:Name="OrdersDataGrid"
+				  AutoGenerateColumns="False"
+				  IsReadOnly="True"
+				  GridLinesVisibility="All"
+				  SelectionMode="Single">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="100"/>
+				<DataGridTextColumn Header="Data" Binding="{Binding Data}" Width="550"/>
+				<DataGridTextColumn Header="Price total" Binding="{Binding PriceTotal}" Width="150"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+	</StackPanel>
+</UserControl>

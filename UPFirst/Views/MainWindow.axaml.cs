@@ -34,5 +34,11 @@ namespace UPFirst.Views
 
         }
 
+        private async void OrderButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            MainContent.Content = new OrdersView();
+
+        }
+
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace UPFirst.Data;
 
@@ -12,6 +11,11 @@ public partial class User
 
     public string? Password { get; set; }
 
-    //[Display(AutoGenerateField = false)]
+    public int RoleId { get; set; }
+
     public virtual ICollection<Basket> Baskets { get; set; } = new List<Basket>();
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+
+    public virtual Role Role { get; set; } = null!;
 }

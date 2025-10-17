@@ -13,6 +13,7 @@
 			<Button Content="Items" Click="ItemButton_Click" Width="100"/>
 			<Button Content="Users" Click="UsersButton_Click" Width="100"/>
 			<Button Content="Basket" Click="BasketButton_Click" Width="100"/>
+			<Button Content="Order" Click="OrderButton_Click" Width="100"/>
 		</StackPanel>
 
 		<Border Margin="0,20,0,0" BorderBrush="Gray" BorderThickness="1">

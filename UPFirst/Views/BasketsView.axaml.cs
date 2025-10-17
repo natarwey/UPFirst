@@ -1,7 +1,8 @@
-using Avalonia;
+﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
 using UPFirst.Data;
 
@@ -28,5 +29,35 @@ public partial class BasketsView : UserControl
             App.dbContext.SaveChanges();
             LoadData();
         }
+    }
+
+    private void BuyButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        var userId = CurrentUser.currentUser.Id;
+
+        var basketItems = App.dbContext.Baskets
+            .Where(b => b.UserId == userId)
+            .Include(b => b.Item)
+            .ToList();
+
+        if (!basketItems.Any())
+            return;
+
+        var total = basketItems.Sum(b => b.Item.Price * b.Quantity);
+
+        var order = new Order
+        {
+            UserId = userId,
+            Data = DateTime.Now,
+            PriceTotal = total
+        };
+
+        App.dbContext.Orders.Add(order);
+        App.dbContext.SaveChanges();
+
+        App.dbContext.Baskets.RemoveRange(basketItems);
+        App.dbContext.SaveChanges();
+
+        LoadData();
     }
 }
