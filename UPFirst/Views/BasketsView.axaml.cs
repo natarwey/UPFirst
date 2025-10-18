@@ -33,8 +33,17 @@ public partial class BasketsView : UserControl
     {
         if (BasketsDataGrid.SelectedItem is Basket basket)
         {
-            App.dbContext.Baskets.Remove(basket);
-            App.dbContext.SaveChanges();
+            if (basket.Quantity > 1)
+            {
+                basket.Quantity--;
+                App.dbContext.SaveChanges();
+            }
+            else
+            {
+                App.dbContext.Baskets.Remove(basket);
+                App.dbContext.SaveChanges();
+            }
+
             LoadData();
         }
     }

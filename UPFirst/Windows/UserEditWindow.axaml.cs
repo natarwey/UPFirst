@@ -40,7 +40,7 @@ public partial class UserEditWindow : Window
         else
             db.Users.Update(_user);
             
-            db.SaveChanges();
+        db.SaveChanges();
 
         Close(true);
     }
